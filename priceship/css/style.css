@@ -1,0 +1,18 @@
+.price{
+    margin: 0px auto;
+    width: 300px;
+}
+
+.btn_price{
+    margin-top:20px;
+    display: block;
+    padding: 9px 10px;
+    text-align: center;
+    background: rgb(224, 120, 0);
+    boder: none;
+    width: 18%;
+    text-transform:uppercase;
+    margin: 0px auto;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,130 @@
+body{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+
+/* ==================HEADER============= */
+#header{
+    background: #23282d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+form#search {
+    position: relative;
+}
+
+form#search input{
+    background: #131619;
+    width: 248px;
+    border: none;
+    outline: none;
+    padding: 10px 42px 10px 15px;
+    color: #909090;
+
+}
+form#search button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background: none;
+    border: none;
+    color: #a2a1a1;
+    padding: 9px 12px;
+}
+
+form#search ::placeholder{
+    color: #909090;
+
+}
+
+ul#main-menu li a{
+    padding: 5px 25px;
+    color: #eeeeee;
+}
+
+/* ================Content=============== */
+
+.content{
+    width: 1200px;
+    height: 650px;
+    margin: 0px auto;
+    display: flex;
+}
+.bg-content{
+    background: #dbdbdb;
+}
+
+
+/* ================endContent=============== */
+
+
+/* =================FOOTER================ */
+
+#footer{
+    background: #2e2f30;
+    color: #f6f6f6;
+    margin-bottom: 0;
+}
+
+#footer .box .box-head h3 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px
+}
+
+#footer .box.logo-footer{
+    flex: 280px;
+    padding-right: 15px;
+}
+
+#footer .box.about-us{
+    flex: 680px;
+    padding-right: 180px;
+    padding-left: 15px;
+}
+
+#footer .box.about-us a{
+    color: #4db2ec;
+}
+#footer .box.follow-us{
+    flex: 180px;
+    padding-right: 15px;
+}
+
+ul.list-social li{
+    margin-left: 15px;
+}
+
+ul.list-social li a{
+    background: #434648;
+    padding: 6px 12px;
+    color: #eee;
+}
+
+ul.list-social li:first-child{
+    margin-left: 0px;
+}
+
+ul.list-social li:hover a {
+    color:#4db2ec
+}
